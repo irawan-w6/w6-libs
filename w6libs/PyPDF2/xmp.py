@@ -23,7 +23,7 @@ from xml.dom.minidom import Element as XmlElement
 from xml.dom.minidom import parseString
 from xml.parsers.expat import ExpatError
 
-from W6Libs.PyPDF2.errors import PdfReadError
+from w6libs.PyPDF2.errors import PdfReadError
 
 from ._utils import StreamType, deprecate_with_replacement
 from .generic import ContentStream, PdfObject

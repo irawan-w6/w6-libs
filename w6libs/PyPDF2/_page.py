@@ -192,7 +192,7 @@ class Transformation:
     Usage
     -----
 
-        >>> from W6Libs.PyPDF2 import Transformation
+        >>> from w6libs.PyPDF2 import Transformation
         >>> op = Transformation().scale(sx=2, sy=3).translate(tx=10, ty=20)
         >>> page.add_transformation(op)
     """

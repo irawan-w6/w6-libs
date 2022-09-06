@@ -1,4 +1,4 @@
-from W6Libs.PyPDF2 import PdfFileReader
+from w6libs.PyPDF2 import PdfFileReader
 
 
 def pdf2txt(path):
@@ -6,8 +6,8 @@ def pdf2txt(path):
     pdf_reader = PdfFileReader(path, 'rb')
 
     # extracting text from page
-    pdftext = ""
+    pdf_text = ""
     for page in range(pdf_reader.numPages):
         page_obj = pdf_reader.getPage(page)
-        pdftext += page_obj.extract_text()
-    return pdftext
+        pdf_text += page_obj.extract_text()
+    return pdf_text
