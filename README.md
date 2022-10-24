@@ -10,3 +10,6 @@ Change Log
 
 0.0.3 (Sep 30, 2022)
 - Add PDF version as return value
+
+0.0.4 (Oct 24, 2022)
+- Fix PDF version

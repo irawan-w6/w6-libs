@@ -6,8 +6,9 @@ def pdf2txt(path):
     pdf_reader = PdfFileReader(path, 'rb')
 
     # extract pdf version
-    pdf_reader.stream.seek(0)
-    pdf_version = pdf_reader.stream.readline().decode().strip()
+    pdf_version = ''
+    # pdf_reader.stream.seek(0)
+    # pdf_version = pdf_reader.stream.readline().decode().strip()
 
     # extracting text from page
     pdf_text = ""

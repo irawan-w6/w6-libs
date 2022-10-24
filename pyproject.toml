@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "w6-libs"
-version = "0.0.3"
+version = "0.0.4"
 description = "W6 Library"
 authors = ["Irawan <irawan@waresix.com>"]
 license = "MIT"
